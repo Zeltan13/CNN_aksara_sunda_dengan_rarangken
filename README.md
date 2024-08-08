@@ -13,7 +13,7 @@ The model is trained using TensorFlow to identify various Sundanese characters, 
 
 ## Features
 
-- **Image Classification**: Capable of recognizing Aksara Sunda characters and their rarangken with high accuracy.
+- **Image Classification**: Capable of recognizing Aksara Sunda characters and their rarangken with an accuracy of 97% and a validation accuracy of 87%.
 - **Data Augmentation**: Uses Keras' `ImageDataGenerator` for real-time data augmentation.
 - **Deep Learning**: Implements a deep CNN architecture with multiple convolutional layers.
 - **Customizability**: Easily modify the model architecture for experimenting with different configurations.
