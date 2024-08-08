@@ -1,0 +1,1 @@
+Utilized python to build a Convolutional Neural Network model to predict Sundanese Rarangken script characters. The project involved training a deep learning model on a dataset of Sundanese Rarangken scripts characters, achieving an accuracy of 97% on training and 87% on validation accuracy with 0.0884 training loss and 0.6712 validation loss.
