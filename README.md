@@ -1,17 +1,28 @@
 # Aksara Sunda OCR
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10-blue.svg)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-brightgreen.svg)
 
 ## Overview
 
-The **Aksara Sunda OCR** project is a convolutional neural network (CNN) based optical character recognition (OCR) system designed to recognize Aksara Sunda Rarangken characters. This project aims to accurately classify the distinct characters and rarangken (modifiers) used in the Aksara Sunda script. The dataset consists of images of size 100x100 pixels.
+The **Aksara Sunda OCR** project is a convolutional neural network (CNN) based optical character recognition (OCR) system designed to recognize Aksara Sunda Rarangken characters.
 
-### Project Structure
+![Aksara Sunda Sample](aksara-sunda.jpeg)
 
-- **Characters**: ka, va, fa, qa, na, pa, la, xa, sa, wa, ga, nga, da, ha, ra, za, ma, and ta.
-- **Rarangken (Modifiers)**: i, u, e, é, o, eu.
+The model is trained using TensorFlow to identify various Sundanese characters, leveraging data augmentation techniques and a robust CNN architecture.
 
-### Prerequisites
+## Features
 
-- Ensure you have a Python version between 3.9 and 3.11 installed on your system
+- **Image Classification**: Capable of recognizing Aksara Sunda characters and their rarangken with high accuracy.
+- **Data Augmentation**: Uses Keras' `ImageDataGenerator` for real-time data augmentation.
+- **Deep Learning**: Implements a deep CNN architecture with multiple convolutional layers.
+- **Customizability**: Easily modify the model architecture for experimenting with different configurations.
+
+## Requirements
+
+- Python 3.10
+- TensorFlow 2.x
+- Keras
+- NumPy
+- Matplotlib
+
