@@ -1,7 +1,6 @@
 # Aksara Sunda OCR
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python](https://img.shields.io/badge/python-3.12-blue.svg)
+![Python](https://img.shields.io/badge/python-3.10-blue.svg)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-brightgreen.svg)
 
 ## Overview
